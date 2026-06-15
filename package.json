@@ -1,0 +1,14 @@
+{
+    "name": "nuxt-layer-typecheck",
+    "workspaces": [
+        "base",
+        "web"
+    ],
+    "scripts": {
+        "typecheck": "npm run typecheck -w web"
+    },
+    "stackblitz": {
+        "installDependencies": false,
+        "startCommand": "npm ci && npm run typecheck"
+    }
+}
